@@ -112,7 +112,7 @@ a{
     flex-flow:column nowrap;
     align-items:center;
     justify-content:center;
-    height:420px;
+    height:450px;
     /* width:55vw; */
 }
 
@@ -144,8 +144,34 @@ a{
     padding:0px;
     margin:0px;
 }
+
+.quote{
+    background-color:#E5E7EB;
+    display:flex;
+    flex-flow:column nowrap;
+    align-items:center;
+    justify-content:center;
+    height:600px;
+    
+}
+
+#q{
+    font-size:36px;
+    font-style:italic;
+    font-weight:lighter;
+    color:#1f2937;
+
+    width:50vw;
+}
+
+#b{
+    font-size:24px;
+    text-align:right;
+    font-weight:bold;
+    width:50vw;
+}
 .footer{
-    /* background-color:#1f2937; */
+    background-color:#1f2937; 
     color:white;
     display:flex;
     justify-content:center;
