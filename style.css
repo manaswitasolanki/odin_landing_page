@@ -8,11 +8,13 @@ body{
 .header{
     
     width:100vw;
+    height:480px;
     background-color:#1f2937;
     display:flex;
     flex-flow:column nowrap;
     align-items:center;
-    
+    justify-content:flex-start;
+    gap:16px;
     
 }
 .logo{
@@ -31,6 +33,7 @@ body{
 #logotext{
     font-size:24px;
     color:#f9faf8;
+    font-weight:bold;
 }
 
 ul{
@@ -58,6 +61,7 @@ a{
 .box{
     display:flex;
     justify-content:center;
+    gap:16px;
 }
 
 .boxtext{
@@ -99,7 +103,7 @@ a{
 
 
 .footer{
-    background-color:#1f2937;
+    /* background-color:#1f2937; */
     color:white;
     display:flex;
     justify-content:center;
