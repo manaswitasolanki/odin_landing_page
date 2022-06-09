@@ -101,7 +101,49 @@ a{
        width:400px;
 }
 
+.content{
+    display:flex;
+    flex-flow:column nowrap;
+    width:100vw;
+}
 
+.info{
+    display:flex;
+    flex-flow:column nowrap;
+    align-items:center;
+    justify-content:center;
+    height:420px;
+    /* width:55vw; */
+}
+
+#infohead{
+    font-size:36px;
+    font-weight:bolder;
+    color:#1f2937;
+}
+
+.infobox{
+    display:flex;
+    flex-flow:column nowrap;
+    align-items:center;
+    width:200px;
+    gap:32px;
+    
+}
+
+.infoimg{
+    height:140px;
+    width:140px;
+    border:4px solid #3882f6;
+    border-radius:10px;
+
+}
+
+.infotext{
+    width:150px;
+    padding:0px;
+    margin:0px;
+}
 .footer{
     /* background-color:#1f2937; */
     color:white;
