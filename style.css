@@ -170,6 +170,58 @@ a{
     font-weight:bold;
     width:50vw;
 }
+
+.cta{
+     height:300px;
+     width:100vw;
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     
+}
+
+.ctabox{
+    display:flex;
+    flex-flow:row nowrap;
+    background-color: #3882f6;
+    width:55vw;
+    height:120px;
+    justify-content:space-around;
+    align-items:center;
+    border-radius:25px;
+}
+
+.ctatext{
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content:center;
+
+}
+
+#ctahead{
+    font-size:20px;
+    color:#f9faf8;
+    font-weight:bold;
+    margin:0px;
+}
+
+#ctasubtext{
+    font-size:20px;
+    color:#f9faf8;
+    font-weight:light;
+    margin:0px;
+}
+
+#ctabutton{
+    border:3px solid #f9faf8;
+    border-radius: 10px;
+    height:35px;
+    width:100px;
+    background-color:#3882f6;
+    color:#f9faf8;
+    font-weight:bold;
+    
+}
 .footer{
     background-color:#1f2937; 
     color:white;
